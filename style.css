@@ -1,0 +1,117 @@
+body{
+    background-color: #aaa;
+    text-align: center;
+}
+*{
+    margin: 0;
+}
+.bigwhitehalf{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    position: absolute;
+}
+.mediumcblackhalf {
+    background: #000;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius:100px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 100px;
+}
+
+
+.bigblackhalf{
+    background: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    top: 200px;
+}
+.mediumwhitehalf{
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left:200px; 
+}
+
+.smallblackcircle{
+    background: rgb(0, 0, 0);
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 268px;
+    top: 168px;
+}
+.smallwhitecircle{
+    background: rgb(255, 255, 255);
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 68px; 
+    top: 168px;
+}
+.circle{
+    position: absolute;
+    
+}
+
+.yinAndyang{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.rotate {
+    animation: 5s linear infinite rotate;
+    position: relative;
+    transform-origin: 50% 50%;
+  }
+  
+ @keyframes rotate {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+}
+.bagua{
+    width:800px;
+    text-align: left;
+    margin: 0 auto;
+}
+.bagua>ul{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.bagua>ul>li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+    line-height: 30px;
+    float: left;
+    width: 50%;
+}
+.bagua>ul>li>div{
+    padding-left:10px;
+    display: inline-block;
+}
